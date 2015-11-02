@@ -37,8 +37,8 @@ in the EditorGrid.js, we reference dgrid1 and dstore1
 This test widget added the editor grid to the content pane, so we need to add the following code in the EditorGrid.js
 (we will need to figure out a better way to do it later)
 
-			var currentPane = dojo.byId('editorGrid_parent');
-			currentPane.appendChild(grid.domNode);
+	var currentPane = dojo.byId('editorGrid_parent');
+	currentPane.appendChild(grid.domNode);
 
 
 then in the viewer.js file
@@ -60,4 +60,5 @@ add the widget,
             },   
             
 if you uss different id, then you need to change the following line of code accrodingly.
-			var currentPane = dojo.byId('editorGrid_parent');
+
+	var currentPane = dojo.byId('editorGrid_parent');
