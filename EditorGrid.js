@@ -89,6 +89,6 @@ define([
 				return data;
 			}
 
-        },
+        	},
 	});
 });
