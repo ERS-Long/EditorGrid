@@ -61,4 +61,4 @@ add the widget,
             
 if you uss different id, then you need to change the following line of code accrodingly.
 
-	var currentPane = dojo.byId('editorGrid_parent');
+	var currentPane = dojo.byId('#yourid#_parent');
