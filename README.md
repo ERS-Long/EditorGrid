@@ -1,7 +1,7 @@
 # EditorGrid
 Test Widget for CMV for study purpose
 
-Looks ESRI js dont incldue all the most current dgrid component, so we need to inculde the packages by our self
+Looks like ESRI js dont incldue all the most current dgrid component, so we need to inculde the packages by ourself
 
 I renamed the dgrid and dstore to dgrid1 and dstore1, so it wont interfere with those included in ESRI's package
 
