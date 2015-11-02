@@ -60,9 +60,14 @@ define([
 				}
 			}, 'editorgrid');
 
-			var currentPane = dojo.byId('editorGrid_parent');
-			currentPane.appendChild(grid.domNode);
 
+			var currentPane = dojo.byId('editorGrid_parent_pane');
+			console.log(currentPane);
+
+			console.log(dojo.byId('editorgrid'));
+
+			currentPane.appendChild(grid.domNode);
+		//	grid.resize();
 			grid.startup();
 
 			function createData () {
@@ -85,7 +90,5 @@ define([
 			}
 
         },
-
-
 	});
 });
