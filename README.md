@@ -56,6 +56,6 @@ add the widget,
                 }
             },   
             
-if you use different id, then you need to change the following line of code accrodingly.
+if you use different id, then you need to change the following line of code accordingly.
 
 	var currentPane = dojo.byId('#yourid#_parent');
