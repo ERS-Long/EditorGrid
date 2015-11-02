@@ -19,16 +19,13 @@ I renamed the dgrid and dstore to dgrid1 and dstore1, so it wont interfere with 
                 },{
                     name: 'widgets',
                     location: location.pathname.replace(/[^\/]+$/, '') + './widgets'
-                }
-                ,{
+                },{
                     name: 'dgrid1',
                     location: '//cdn.rawgit.com/SitePen/dgrid/v0.4.0'
-                },
-                {
+                },{
                     name: 'dstore1',
                     location: '//cdn.rawgit.com/SitePen/dstore/v1.0.0'
-                }
-                ]
+                }]
             };
 
 
