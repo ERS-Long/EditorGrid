@@ -46,9 +46,9 @@ then in the viewer.js file
 add the widget, 
 
             editorGrid: {
-                include: true,  //not working yet
+                include: true,  
                 id: 'editorGrid',
-                type: 'titlePane', //titlePane, invisible
+                type: 'titlePane',
                 canFloat: true,
                 title: '<i class="icon-large icon-road"></i>&nbsp;&nbsp;Editor Grid',
                 path: 'widgets/EditorGrid',
